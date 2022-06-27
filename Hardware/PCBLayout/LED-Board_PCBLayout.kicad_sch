@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (title "LED-Board")
+    (date "2022-06-27")
+    (rev "1.1")
+  )
+
   (lib_symbols
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
@@ -326,6 +332,9 @@
   (junction (at 34.29 36.83) (diameter 0) (color 0 0 0 0)
     (uuid eb07b435-080c-4c0f-8b16-101ee7a573b6)
   )
+  (junction (at 54.61 46.99) (diameter 0) (color 0 0 0 0)
+    (uuid ed456e25-980f-4c12-844a-8018bbda01db)
+  )
 
   (wire (pts (xy 44.45 36.83) (xy 46.99 36.83))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -358,6 +367,10 @@
   (wire (pts (xy 44.45 25.4) (xy 44.45 36.83))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5013e8c0-780d-4906-8766-327e65c9094d)
+  )
+  (wire (pts (xy 54.61 46.99) (xy 64.77 46.99))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 51ff3025-ecb7-4768-8195-58f8658b536b)
   )
   (wire (pts (xy 74.93 36.83) (xy 74.93 38.1))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -409,6 +422,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9b4bf477-a12e-4cbd-9a4d-eca552257e3a)
   )
+  (wire (pts (xy 54.61 44.45) (xy 54.61 46.99))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid a51ca999-c3e1-4c41-8b9b-3e23db3b6794)
+  )
   (polyline (pts (xy 82.55 44.45) (xy 82.55 16.51))
     (stroke (width 0) (type solid) (color 132 0 0 1))
     (uuid b0835956-930f-47df-b354-4c23ed345e59)
@@ -440,7 +457,7 @@
     (uuid dca65669-ea15-4c4a-8809-89f476629b06)
   )
 
-  (wire (pts (xy 44.45 46.99) (xy 64.77 46.99))
+  (wire (pts (xy 44.45 46.99) (xy 54.61 46.99))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e82ebf5f-0987-461d-9f69-0508af10ab6a)
   )
